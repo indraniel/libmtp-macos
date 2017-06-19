@@ -22,7 +22,7 @@ glibtoolize --copy --force || fail
 echo "Removing aclocal cruft"
 rm -f aclocal.m4
 echo "Running aclocal $ACLOCAL_FLAGS"
-aclocal $ACLOCAL_FLAGS || fail
+aclocal -I /usr/local/opt/gettext/share/aclocal/ $ACLOCAL_FLAGS || fail
 echo "Removing autoheader cruft"
 rm -f config.h.in src/config.h.in
 echo "Running autoheader"
