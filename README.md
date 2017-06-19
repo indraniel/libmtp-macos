@@ -26,6 +26,10 @@ This is a fork of [libmtp][0] from [sourceforge][1].  It contains changes I made
     
         make
 
+6.  Install the library and executables
+    
+        make install
+
 # Additional Notes
 
 The original git repository at sourceforge can be cloned by running the following command:
