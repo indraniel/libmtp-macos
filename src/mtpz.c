@@ -56,6 +56,8 @@
 
 /* Microsoft MTPZ extensions */
 
+int use_mtpz;
+
 /*
  * The ~/.mtpz-data file contains all four necessary pieces of data:
  *
